@@ -1,0 +1,22 @@
+@use "../../style/variables/colors" as colors;
+
+.Popup {
+  position: fixed;
+  background: rgba($color: colors.$black, $alpha: 0.5);
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: none;
+  align-items: center;
+  justify-content: center;
+
+  &__visible {
+    display: flex;
+  }
+}
+
+.Cart {
+  padding: 15px 10px;
+  background: colors.$smokey-white;
+}

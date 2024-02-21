@@ -1,0 +1,56 @@
+@use "../../style/variables/colors" as colors;
+
+.Header {
+  width: 100%;
+  padding: 25px 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: colors.$dark-gray;
+}
+
+.Search_form {
+  display: flex;
+  align-items: center;
+  position: relative;
+
+  & input {
+    padding: 10px 15px;
+    padding-right: 35px;
+    border: 0;
+    outline: 0; // EDIT OULTINE LATER
+    width: 35vw;
+    border-radius: 5px;
+    font-weight: bold;
+    background: colors.$smokey-white;
+    font-size: 20px;
+  }
+
+  & button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: transparent;
+    border: 0;
+    outline: 0; // EDIT OUTLINE LATER
+    padding: 0 5px;
+    font-size: 30px;
+    cursor: pointer;
+  }
+}
+
+.Cart_btn {
+  border: 0;
+  outline: 0; // EDIT OUTLINE LATER
+  background: transparent;
+  font-size: 35px;
+  cursor: pointer;
+  transition: all 0.25s;
+  padding: 10px;
+  border-radius: 5px;
+
+  &:hover {
+    background: colors.$smokey-white;
+  }
+}

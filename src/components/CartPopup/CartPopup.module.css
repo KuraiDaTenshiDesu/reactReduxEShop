@@ -1,0 +1,19 @@
+.Popup {
+  position: fixed;
+  background: rgba(0, 0, 0, 0.5);
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+.Popup__visible {
+  display: flex;
+}
+
+.Cart {
+  padding: 15px 10px;
+  background: #efefef;
+}/*# sourceMappingURL=CartPopup.module.css.map */

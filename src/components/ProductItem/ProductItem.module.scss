@@ -1,0 +1,12 @@
+@use "../../style/variables/colors" as colors;
+
+.Product {
+  border: 2px solid colors.$black;
+  background: colors.$dark-gray;
+  padding: 15px 10px;
+
+  & h2,
+  & p {
+    color: colors.$smokey-white;
+  }
+}

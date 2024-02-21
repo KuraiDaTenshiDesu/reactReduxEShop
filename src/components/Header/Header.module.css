@@ -1,0 +1,51 @@
+.Header {
+  width: 100%;
+  padding: 25px 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #4c4c4c;
+}
+
+.Search_form {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.Search_form input {
+  padding: 10px 15px;
+  padding-right: 35px;
+  border: 0;
+  outline: 0;
+  width: 35vw;
+  border-radius: 5px;
+  font-weight: bold;
+  background: #efefef;
+  font-size: 20px;
+}
+.Search_form button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  padding: 0 5px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.Cart_btn {
+  border: 0;
+  outline: 0;
+  background: transparent;
+  font-size: 35px;
+  cursor: pointer;
+  transition: all 0.25s;
+  padding: 10px;
+  border-radius: 5px;
+}
+.Cart_btn:hover {
+  background: #efefef;
+}/*# sourceMappingURL=Header.module.css.map */
