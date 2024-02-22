@@ -1,9 +1,5 @@
 import { PayloadAction, createSlice } from "@reduxjs/toolkit";
-import { TProduct } from "../types";
-
-interface CartProduct extends TProduct {
-  count: number;
-}
+import { CartProduct, TProduct } from "../types";
 
 type cartState = {
   list: CartProduct[];
@@ -22,6 +18,8 @@ export const cartSLice = createSlice({
 
       if (!product) {
         state.list.push({ ...action.payload, count: 1 });
+      } else {
+        product.count += 1;
       }
     },
     deleteFromCart: (state, action: PayloadAction<number>) => {

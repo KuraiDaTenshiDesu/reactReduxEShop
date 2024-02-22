@@ -1,0 +1,7 @@
+@use "../../style/variables/colors" as colors;
+
+.Product {
+  border: 2px solid colors.$black;
+  padding: 10px 15px;
+  margin-bottom: 15px;
+}

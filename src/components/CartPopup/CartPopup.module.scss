@@ -19,4 +19,8 @@
 .Cart {
   padding: 15px 10px;
   background: colors.$smokey-white;
+  width: 50vw;
+  height: 75vh;
+  overflow-y: scroll;
+  position: relative;
 }

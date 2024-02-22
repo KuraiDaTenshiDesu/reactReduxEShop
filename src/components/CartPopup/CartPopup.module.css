@@ -16,4 +16,8 @@
 .Cart {
   padding: 15px 10px;
   background: #efefef;
+  width: 50vw;
+  height: 75vh;
+  overflow-y: scroll;
+  position: relative;
 }/*# sourceMappingURL=CartPopup.module.css.map */
